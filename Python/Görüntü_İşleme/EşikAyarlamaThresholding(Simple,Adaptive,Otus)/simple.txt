@@ -1,0 +1,11 @@
+
+Simple thresholding (basit eşikleme), bir görüntüyü siyah ve beyaz piksellere bölmenin temel bir yöntemidir. 
+Bu işlem, her pikselin belirli bir eşik değeri ile karşılaştırıldığı ve eşik değerine göre pikselin siyah veya beyaz 
+olarak sınıflandırıldığı bir işlemi ifade eder.
+
+Temel olarak, bir eşik değeri belirlenir ve her piksel bu eşik değeriyle karşılaştırılır. 
+Eğer bir piksel, eşik değerinden büyükse (veya küçükse, eşikleme türüne bağlı olarak), bu piksel beyaz olarak 
+işaretlenir; aksi takdirde siyah olarak işaretlenir. Sonuç, siyah-beyaz bir ikili görüntü elde etmek için kullanılır.
+
+Simple thresholding, görüntü işleme ve nesne tespiti gibi birçok uygulamada kullanılır. Bu yöntem, görüntüdeki 
+nesneleri veya özellikleri belirginleştirmek ve arka planı ayırmak için sıklıkla kullanılır.

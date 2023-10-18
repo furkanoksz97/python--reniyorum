@@ -1,0 +1,19 @@
+
+Otsu thresholding, bir görüntüyü otomatik olarak iki sınıfa bölen bir eşikleme yöntemidir. 
+Bu yöntem, görüntü üzerinde en iyi ayrımı sağlamak için eşik değerini otomatik olarak hesaplar. 
+İşte Otsu thresholding'in temel çalışma prensibi:
+
+İlk adımda, görüntünün histogramı hesaplanır. Histogram, görüntüdeki piksel değerlerinin dağılımını temsil eder.
+
+Otsu eşikleme, farklı eşik değerlerini deneyerek sınıflar arasındaki varyansı hesaplar. 
+Bu, piksellerin iki sınıf arasında ne kadar iyi ayrıldığını gösterir.
+
+Otsu, sınıflar arasındaki varyansı maksimize eden eşik değerini seçer. Bu, görüntünün en iyi şekilde 
+iki sınıfa ayrılmasını sağlar.
+
+Seçilen eşik değeri kullanılarak görüntü iki sınıfa bölünür: birinci sınıf, eşik değerini aşan pikselleri 
+içerirken, ikinci sınıf ise aşmayan pikselleri içerir.
+
+Otsu thresholding, özellikle gürültülü veya farklı aydınlatma koşullarına sahip görüntülerde, nesne tespiti, 
+kontur algılama ve görüntü iyileştirme gibi birçok görüntü işleme görevinde kullanılır. Bu yöntem, görüntülerin 
+otomatik olarak ve hassas bir şekilde eşiklendiği ve nesnelerin arka planından ayrıldığı bir işlem sunar.

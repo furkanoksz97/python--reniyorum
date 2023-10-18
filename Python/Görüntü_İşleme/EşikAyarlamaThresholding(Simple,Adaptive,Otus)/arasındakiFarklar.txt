@@ -1,0 +1,36 @@
+Otsu thresholding, Simple thresholding ve Adaptive thresholding, farklı eşikleme yöntemleridir ve aralarında 
+bazı temel farklar vardır:
+
+Eşik Değerinin Belirlenmesi:
+
+- Simple Thresholding: Simple thresholding'de eşik değeri kullanıcı tarafından belirtilir. 
+Tüm pikseller, bu sabit eşik değeri ile karşılaştırılır.
+- Adaptive Thresholding: Adaptive thresholding'de her piksel için farklı bir eşik değeri hesaplanır, 
+bu nedenle her pikselin çevresindeki bölgeye göre eşik değeri belirlenir.
+- Otsu Thresholding: Otsu thresholding ise, görüntü üzerinde en iyi ayrımı sağlayacak eşik değerini otomatik 
+olarak hesaplar.
+
+Duyarlılık:
+
+- Simple Thresholding: Simple thresholding, görüntünün genel aydınlık ve kontrastına duyarlıdır. 
+Tüm pikseller için aynı eşik değeri kullanıldığı için homojen olmayan görüntülerde etkili olmayabilir.
+- Adaptive Thresholding: Adaptive thresholding, görüntünün farklı bölgelerindeki aydınlık ve kontrast 
+değişikliklerine daha iyi uyum sağlar, bu nedenle daha esnek ve hassas sonuçlar elde edebilir.
+- Otsu Thresholding: Otsu thresholding, görüntünün histogramını analiz ederek, en iyi ayrımı sağlamak için eşik 
+değerini otomatik olarak hesaplar. Bu nedenle gürültülü veya değişken aydınlatma koşullarına sahip görüntülerde 
+kullanışlıdır.
+
+Uygulama Alanları:
+
+- Simple Thresholding: Simple thresholding, homojen veya sabit aydınlatma koşullarına sahip görüntülerde ve 
+basit nesne ayrımında kullanılır.
+- Adaptive Thresholding: Adaptive thresholding, çoklu aydınlatma koşullarına sahip görüntülerde, karmaşık sahnelerde 
+ve nesne tespiti gibi daha zorlu uygulamalarda kullanılır.
+- Otsu Thresholding: Otsu thresholding, görüntülerdeki en iyi ayrımı sağlamak için kullanılır ve özellikle nesne 
+tespiti, kontur algılama ve görüntü iyileştirme gibi görevlerde tercih edilir.
+
+
+Bu farklar göz önüne alındığında, her bir eşikleme yöntemi, farklı uygulama senaryolarına ve görüntü tiplerine göre 
+tercih edilir. Simple thresholding, basit aydınlatma koşullarına sahip ve homojen görüntülerde hızlı ve etkili bir 
+şekilde kullanılabilirken, Adaptive thresholding ve Otsu thresholding, daha karmaşık veya değişken aydınlatma 
+koşullarına sahip görüntülerde daha iyi sonuçlar verme eğilimindedir.

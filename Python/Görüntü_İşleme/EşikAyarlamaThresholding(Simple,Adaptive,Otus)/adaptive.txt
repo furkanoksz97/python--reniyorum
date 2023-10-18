@@ -1,0 +1,12 @@
+Adaptive thresholding (uyarlamalı eşikleme), bir görüntüyü siyah ve beyaz piksellere bölmek için kullanılan bir 
+eşikleme yöntemidir. Temel fark, geleneksel (basit) thresholding ile karşılaştırıldığında, adaptif eşikleme, 
+her piksel için ayrı bir eşik değeri belirler. Bu, görüntünün farklı bölgelerindeki aydınlık ve kontrast 
+değişikliklerine daha iyi uyum sağlar.
+
+Adaptive thresholding, bir bölge içindeki ışık ve kontrast değişikliklerini hesaba katarak eşikleme yapar. 
+Bir bölge içindeki piksellerin ortalaması veya ağırlıklı ortalaması gibi bir değer kullanılarak, o bölge için 
+en uygun eşik değeri hesaplanır. Bu, arka planın ayırt edilmesini ve nesnelerin daha iyi belirginleşmesini sağlar.
+
+Bu yöntem, özellikle çoklu aydınlatma koşullarına sahip görüntülerde veya karmaşık sahnelerde nesne tespiti ve 
+görüntü işleme uygulamalarında kullanışlıdır. Adaptif eşikleme, geleneksel eşikleme yöntemlerine göre daha esnek 
+ve hassas sonuçlar üretebilir.
